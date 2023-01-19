@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <figure class="img">
+            <img src="./assets/subscribe.jpg" alt="Imagem de uma carta escrito subscribe">
+            <img id="img-subscribe" src="./assets/inscreva-se.jpg" alt="Imagem escrito inscreva-se com doces ao redor">
+        </figure>
+
+        <section class="formulario">
+            <h2>CRIAR CONTA</h2>
+            <form id="formulario-cadastro">
+                <div>
+                    <input type="email" class="inputs-cadastro" id="email" name="email" placeholder="E-mail" required> 
+                </div>
+                <div>
+                    <input type="password" class="inputs-cadastro" id="senha" name="senha" placeholder="Senha" required>
+                </div>
+                <div>
+                    <input type="password" class="inputs-cadastro" id="senha-confirma" name="senha-confirma" placeholder="Confirme sua senha" required>
+                </div>
+                <div>
+                    <input type="submit" id="botao-criar-conta" name="botao-criar-conta" value="Criar Conta Agora">
+                </div>
+                <a href="./inicio.html">Voltar ao Login</a>
+            </form>
+
+        </section>
+    </main>
+
+
+    <script src="./cadastro.js"></script>
+</body>
+</html>
